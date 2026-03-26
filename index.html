@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Saya</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Mencegah double scrollbar */
+            background-color: #ffffff;
+        }
+
+        /* Trik Menggeser Layar untuk Sembunyikan Banner */
+        iframe {
+            position: absolute;
+            top: -45px; /* Sesuaikan angka ini (biasanya antara -45px sampai -55px) untuk dorong banner ke atas layar */
+            left: 0;
+            width: 100%;
+            height: calc(100% + 45px); /* Tambahkan tinggi sesuai kompensasi pemotongan di atas */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe src="https://script.google.com/macros/s/AKfycbwPKdeWBYBbuj5F1unAs9fTU9mAuoWjxKHnHVx1g4GE7xFsEkfiMxypv-gtyz7KH6QXPQ/exec"></iframe>
+
+</body>
+</html>
